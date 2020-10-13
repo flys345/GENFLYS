@@ -29,7 +29,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
   -verd)cor="${VERDE}${NEGRITO}" && echo -e "${cor}${2}${SEMCOR}";;
   -bra)cor="${BRAN}${NEGRITO}" && echo -ne "${cor}${2}${SEMCOR}";;
   -bar2)cor="\e[0;31m=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=\e[0m" && echo -e "${cor}${SEMCOR}";;
-  -bar)cor="${AZUL}${NEGRITO}========================================" && echo -e "${cor}${SEMCOR}";;
+  -bar)cor="${AZUL}${NEGRITO}=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*" && echo -e "${cor}${SEMCOR}";;
  esac
 }
 fun_ip () {
@@ -58,7 +58,7 @@ funcao_idioma () {
  echo -e " "
 msg -bar2
 cowsay -f eyes "BIENVENIDO Y GRACIAS POR UTILIZAR NEW-ADM OFICIAL BY FLYS ANDROID" | lolcat
-figlet FLYS | lolcat
+figlet ADMFLYS | lolcat
  echo -e " "
 msg -bar2
 echo -e "\e[1;33mSelecione Un Idioma\e[0m"
