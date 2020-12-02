@@ -1,8 +1,8 @@
 #!/bin/bash
 # INSTALACAO BASICA
 clear
-[[ -e /etc/newadm-instalacao ]] && BASICINST="$(cat /etc/newadm-instalacao)" || BASICINST="menu usercodes message.txt sockspy.sh POpen.py PPriv.py PPub.py PDirect.py PGet.py dropbear.sh openvpn.sh ssl.sh ssld.sh sslmanager.sh squid.sh errormanager.sh shadown.sh shadowsock.sh shadowsocks.sh ssrrmu.sh v2ray.sh vdoray.sh ports.sh ADMbot.sh speedtest.py speed.sh utils.sh apacheon.sh fai2ban.sh vnc cambiopass.sh Crear-Demo.sh htop.sh GENERADOR_BIN.sh MasterBin.sh paysnd.sh payySND.sh ultrahost dados.py dados.zip Gestor.sh insta_painel painel.zip Proxy-Privado.sh Proxy-Publico.sh unddos.py panelweb.sh rootpass.sh toolmaster.py dados.sh hora.sh optimizar.sh permisos_passwd.sh nload.sh"
-IVAR="/etc/http-instas"
+#[[ -e /etc/newadm-instalacao ]] && BASICINST="$(cat /etc/newadm-instalacao)" || BASICINST="menu PGet.py ports.sh ADMbot.sh message.txt usercodes sockspy.sh POpen.py PPriv.py PPub.py PDirect.py speedtest.py speed.sh utils.sh dropbear.sh apacheon.sh openvpn.sh shadowsocks.sh ssl.sh squid.sh"
+#IVAR="/etc/http-instas""
 BARRA="\033[1;36m--------------------------------------------------------------------\033[0m"
 echo -e "$BARRA"
 cat << EOF
