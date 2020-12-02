@@ -3,7 +3,6 @@ IVAR="/etc/http-instas"
 SCPT_DIR="/etc/SCRIPT"
 SCPresq="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2ZseXMzNDUvR0VORkxZUy9tYWluL3JlcXVlc3Q="
 SUB_DOM='base64 -d'
-link_trans="https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/master/Install/trans"
 rm $(pwd)/$0
 ofus () {
 unset txtofus
